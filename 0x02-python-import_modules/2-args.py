@@ -9,6 +9,7 @@ if __name__ == "__main__":
         print('{} argument:'.format(arg_num))
     else:
         print('{} arguments:'.format(arg_num))
+
     count = 0
     for i in sys.argv:
         count = count + 1
